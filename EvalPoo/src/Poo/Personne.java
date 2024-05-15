@@ -1,8 +1,11 @@
+package Poo;
+
 public abstract class Personne {
 
 	protected String nom;
 	protected String prenom;
 	protected int id;
+	
 	
 	public Personne(String nom, String prenom, int id) {
 		super();
@@ -36,9 +39,9 @@ public abstract class Personne {
 	}
 	
 	public void afficherDetails() {
-		System.out.println("ID" + this.id);
-		System.out.println("Nom" + this.nom);
-		System.out.println("Prénom" + this.prenom);
+		System.out.println("ID : " + this.id);
+		System.out.println("Nom : " + this.nom);
+		System.out.println("Prénom : " + this.prenom);
 		
 	}
 	
